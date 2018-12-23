@@ -1,3 +1,4 @@
+using _GUI.Enums;
 using GalaSoft.MvvmLight;
 using System;
 using System.Collections.ObjectModel;
@@ -40,6 +41,9 @@ namespace _GUI.ViewModel
 
         private ClientServer server;
 
+        private char[] seperatorComponents = new char[] { '{', '}' };
+        private char[] seperatorRest = new char[] { ';' };
+
 
         public MainViewModel()
         {
@@ -58,10 +62,28 @@ namespace _GUI.ViewModel
 
         private void guiUpdater(string messaage, ClientHandler client)
         {
+            //"Motorcycle{Engine;Tires;Chasis;Tank}5;10:20"
+
+
+
             App.Current.Dispatcher.Invoke(
                 () =>
                 {
-                    // To Do 
+                    string[] temp = new string[3];
+                    temp = messaage.Split(seperatorComponents);
+                    string typ = temp[0];
+                    string comp = temp[1];
+                    string rest = temp[2];
+                    string[] temp1 = new string[2];
+                    temp1 = temp[2].Split(seperatorRest);
+                    string amount = temp1[0];
+                    string time = temp1[1];
+                    Types t =(Types)Enum.Parse(typeof(Types), typ);
+                    int amount1 = int.Parse(amount);
+                    BluePrints.Add(new BluePrintVm(t, comp, amount1, time));
+
+
+
                 });
 
 

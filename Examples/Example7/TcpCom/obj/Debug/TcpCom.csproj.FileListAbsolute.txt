@@ -3,3 +3,9 @@ C:\Users\david\source\repos\Example7\TcpCom\bin\Debug\TcpCom.pdb
 C:\Users\david\source\repos\Example7\TcpCom\obj\Debug\TcpCom.csproj.CoreCompileInputs.cache
 C:\Users\david\source\repos\Example7\TcpCom\obj\Debug\TcpCom.dll
 C:\Users\david\source\repos\Example7\TcpCom\obj\Debug\TcpCom.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\bin\Debug\TcpCom.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\bin\Debug\TcpCom.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\obj\Debug\TcpCom.csprojAssemblyReference.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\obj\Debug\TcpCom.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\obj\Debug\TcpCom.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\TcpCom\obj\Debug\TcpCom.pdb

@@ -69,6 +69,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters\DoubleToColourConverter.cs" />
     <Compile Include="Converters\TypToStringConverter.cs" />
     <Compile Include="Enums\Types.cs" />
     <Compile Include="ViewModel\BluePrintVm.cs" />

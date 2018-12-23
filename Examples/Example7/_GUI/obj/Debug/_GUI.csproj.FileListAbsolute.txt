@@ -29,3 +29,34 @@ C:\Users\david\source\repos\Example7\_GUI\obj\Debug\_GUI.exe
 C:\Users\david\source\repos\Example7\_GUI\obj\Debug\_GUI.pdb
 C:\Users\david\source\repos\Example7\_GUI\bin\Debug\TcpCom.dll
 C:\Users\david\source\repos\Example7\_GUI\bin\Debug\TcpCom.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\_GUI.exe.config
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\_GUI.exe
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\_GUI.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\CommonServiceLocator.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\TcpCom.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\TcpCom.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.csprojAssemblyReference.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\MainWindow.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\App.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI_MarkupCompile.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI_MarkupCompile.lref
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\App.baml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\MainWindow.baml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.g.resources
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.Properties.Resources.resources
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.csproj.GenerateResource.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.csproj.CopyComplete
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.exe
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Examples\Example7\_GUI\obj\Debug\_GUI.pdb
