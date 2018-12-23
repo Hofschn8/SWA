@@ -24,7 +24,8 @@ namespace _GUI.ViewModel
         private string time;
         private int amount;
         private string completionTime;
-        private int rating;
+        private double rating;
+        
 
 
         public string Components
@@ -55,7 +56,7 @@ namespace _GUI.ViewModel
         }
 
 
-        public int Rating
+        public double Rating
         {
             get { return rating; }
             set { rating = value; RaisePropertyChanged(); }
@@ -65,9 +66,15 @@ namespace _GUI.ViewModel
         {
             this.typ = typ;
             this.components = components;
-            this.time = time;
             this.amount = amount;
             this.completionTime = completionTime;
+            this.time = DateTime.Now.ToShortTimeString();
+
+            var time1 = DateTime.Now;
+            var time2 = DateTime.Parse(completionTime);
+            var o =time2.Subtract(time1);
+            rating = o.TotalMinutes * amount;
+            
             
         }
        
