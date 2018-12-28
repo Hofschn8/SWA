@@ -24,5 +24,7 @@ namespace Gui
         {
             InitializeComponent();
         }
+
+       
     }
 }
