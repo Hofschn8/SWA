@@ -1,0 +1,6 @@
+C:\Users\david\source\repos\Example4\Communications\bin\Debug\Communications.dll
+C:\Users\david\source\repos\Example4\Communications\bin\Debug\Communications.pdb
+C:\Users\david\source\repos\Example4\Communications\obj\Debug\Communications.csprojAssemblyReference.cache
+C:\Users\david\source\repos\Example4\Communications\obj\Debug\Communications.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Example4\Communications\obj\Debug\Communications.dll
+C:\Users\david\source\repos\Example4\Communications\obj\Debug\Communications.pdb
