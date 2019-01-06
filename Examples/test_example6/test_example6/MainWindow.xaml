@@ -1,0 +1,56 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_example6"
+        xmlns:Converters="clr-namespace:test_example6.Converters" x:Class="test_example6.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        >
+    <Window.Resources>
+        <Converters:IntToBrushConverter x:Key="IntToBrushConverter"/>
+    </Window.Resources>
+    <Window.DataContext>
+        <Binding Path="Main" Source="{StaticResource Locator}"/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10" Content="Filter (ID Type)" VerticalAlignment="Center" FontSize="20"/>
+            <ComboBox Margin="10" Width="200" VerticalAlignment="Center" Height="40" SelectedItem="{Binding SelectedIDType}" ItemsSource="{Binding IdTypes, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Margin="10" Width="150" VerticalAlignment="Center" Height="40" Content="Act as Client" FontSize="20" Command="{Binding ClientBtnClickedCmd}" Background="SteelBlue"/>
+            <Button Margin="10" Width="150" VerticalAlignment="Center" Height="40" Content="Act as Server" FontSize="20" Command="{Binding ServerBtnClickedCmd}" Background="SteelBlue"/>
+
+        </StackPanel>
+        <DataGrid Grid.ColumnSpan="2" Grid.Row="1" AutoGenerateColumns="False" ItemsSource="{Binding PersonList}">
+           
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Firstname, UpdateSourceTrigger=PropertyChanged}" Header="Firstname"/>
+                <DataGridTextColumn Binding="{Binding Lastname,UpdateSourceTrigger=PropertyChanged}" Header="Lastname"/>
+                <DataGridTextColumn Binding="{Binding Age,UpdateSourceTrigger=PropertyChanged}" Header="Age"/>
+                <DataGridTextColumn Binding="{Binding Id,UpdateSourceTrigger=PropertyChanged}" Header="Id"/>
+                <DataGridTextColumn Binding="{Binding IdType,UpdateSourceTrigger=PropertyChanged}" Header="IdType"/>
+                <DataGridTemplateColumn Header="Rating">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="{Binding Rating}"/>
+                                <Ellipse Height="20" Width="20" Fill="{Binding Rating, Converter={StaticResource IntToBrushConverter}}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
