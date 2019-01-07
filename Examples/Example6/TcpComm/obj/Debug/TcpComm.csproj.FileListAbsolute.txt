@@ -1,0 +1,6 @@
+C:\Users\david\source\repos\Example6\TcpComm\obj\Debug\TcpComm.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\Example6\TcpComm\bin\Debug\TcpComm.dll
+C:\Users\david\source\repos\Example6\TcpComm\bin\Debug\TcpComm.pdb
+C:\Users\david\source\repos\Example6\TcpComm\obj\Debug\TcpComm.dll
+C:\Users\david\source\repos\Example6\TcpComm\obj\Debug\TcpComm.pdb
+C:\Users\david\source\repos\Example6\TcpComm\obj\Debug\TcpComm.csprojAssemblyReference.cache

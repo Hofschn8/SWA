@@ -1,0 +1,42 @@
+﻿<Window x:Class="Gui.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gui"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+         DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="336*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Filter (ID Type)" Width="100" Height="50" HorizontalAlignment="Right" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+
+        <DockPanel  Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch">
+            <ComboBox Width="100" Height="30" HorizontalAlignment="Left" Margin="5,0"/>
+            <Button Width="100" Height="30" Content="Act as Client" Background="Crimson" Foreground="White" DockPanel.Dock="Right" Margin="5,0"  Command="{Binding ActClientCmd, UpdateSourceTrigger=PropertyChanged}" />
+            <Button Width="100" Height="30" Content="Act as Server" Background="Crimson" Foreground="White" HorizontalAlignment="Right" Margin="5,0" Command="{Binding ActServerCmd, UpdateSourceTrigger=PropertyChanged}"/>
+        </DockPanel>
+
+        <DataGrid Grid.Row="1" Grid.Column="1" Margin="5,0" AutoGenerateColumns="False" ItemsSource="{Binding PersonList, UpdateSourceTrigger=PropertyChanged}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Firstname}" ClipboardContentBinding="{x:Null}" Header="Firstname" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Lastname}" ClipboardContentBinding="{x:Null}" Header="Lastname" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Age}" ClipboardContentBinding="{x:Null}" Header="Age" Width="*"/>
+                <DataGridTextColumn Binding="{Binding IdNumber}" ClipboardContentBinding="{x:Null}" Header="Id" Width="*"/>
+                <DataGridTextColumn Binding="{Binding IDType}" ClipboardContentBinding="{x:Null}" Header="Id Type" Width="*"/>
+                <DataGridTextColumn Binding="{Binding Rating}" ClipboardContentBinding="{x:Null}" Header="Rating" Width="*"/>
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+
+    </Grid>
+</Window>
