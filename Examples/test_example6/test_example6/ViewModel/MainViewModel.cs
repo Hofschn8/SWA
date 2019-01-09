@@ -29,6 +29,7 @@ namespace test_example6.ViewModel
         public RelayCommand ClientBtnClickedCmd { get; set; }
         public RelayCommand ServerBtnClickedCmd { get; set; }
         private string _selectedIDType;
+        private int count = 0;
         public string SelectedIDType { get => _selectedIDType; set { _selectedIDType = value; RaisePropertyChanged("PersonList"); } }
 
         private ObservableCollection<PersonVm> personList;
@@ -114,16 +115,21 @@ namespace test_example6.ViewModel
 
         private void sendDemoData(object sender, EventArgs e)
         {
-            Random r = new Random();
-            int rating = r.Next(1, 6);
-            int type = r.Next(0, 3);
-            string person = "fname;lname;18;" + id + ";" + IdTypes[type] + ";" + rating;
+            if (count < 5)
+            {
+                Random r = new Random();
+
+                int rating = r.Next(1, 6);
+                int type = r.Next(0, 3);
+                string person = "fname;lname;18;" + id + ";" + IdTypes[type] + ";" + rating;
 
 
-            connection.SendMessageToAll(person, connection.Socket);
-            PersonVm temp = new PersonVm("fname", "lname", 18, id, IdTypes[type], rating, changeData);
-            id++;
-            personList.Add(temp);
+                connection.SendMessageToAll(person, connection.Socket);
+                PersonVm temp = new PersonVm("fname", "lname", 18, id, IdTypes[type], rating, changeData);
+                id++;
+                personList.Add(temp);
+                count++;
+            }
         }
 
         private void changeData(PersonVm id)
