@@ -1,0 +1,59 @@
+﻿<Window x:Class="Example10___Horses.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example10___Horses"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Server" Width="120" Margin="10" Command="{Binding ServerClickedCmd}"/>
+            <Button Content="Client" Width="120" Margin="10" Command="{Binding ClientClickedCmd}"/>
+        </StackPanel>
+        <Label Grid.Column="1" Content="All About Horses" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black"  Width="200">
+            <StackPanel Margin="0 10 0 0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Name"/>
+                    <TextBox Width="150" Text="{Binding SelectedName, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0 10">
+                    <Label Content="Speed"/>
+                    <TextBox Width="150" Text="{Binding SelectedSpeed, UpdateSourceTrigger=PropertyChanged}"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Right" Width="100" VerticalAlignment="Bottom">
+                    <Button Content="Add" Command="{Binding AddClickedCmd}" Visibility="{Binding Visibility}"/>
+                </StackPanel>
+            </StackPanel>
+
+        </Border>
+        <ListBox Grid.Row="1" Grid.Column="1" Width="250" ItemsSource="{Binding Horses}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="1" BorderBrush="Black" CornerRadius="25">
+                        <StackPanel Orientation="Horizontal">
+                            <Border Height="30" BorderThickness="1" BorderBrush="Black" CornerRadius="5" Background="LightGreen" Width="{Binding Speed}">
+                                <TextBlock HorizontalAlignment="Center" Text="{Binding Name}"/>
+                            </Border>
+                            <Image Source="./Foto/auto.jpg" Height="30" Width="50"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Fastest Horse:"/>
+            <Label Content="{Binding FastestHorse}"/>
+        </StackPanel>
+    </Grid>
+</Window>

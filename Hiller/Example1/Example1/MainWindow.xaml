@@ -1,0 +1,45 @@
+﻿<Window x:Class="Example1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="167*"/>
+            <RowDefinition Height="43*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="423*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Margin="150 50 10 0">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Toggle" Margin="10" Visibility="{Binding Visibility}" Name="Toggle1" Command="{Binding Toggle1ClickedCmd}"/>
+                <Ellipse Height="25" Width="25" Fill="{Binding Toggle1Color, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Toggle" Margin="10" Visibility="{Binding Visibility}" Command="{Binding Toggle2ClickedCmd}"/>
+                <Ellipse Height="25" Width="25" Fill="{Binding Toggle2Color, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Toggle" Margin="10" Visibility="{Binding Visibility}" Command="{Binding Toggle3ClickedCmd}"/>
+                <Ellipse Height="25" Width="25" Fill="{Binding Toggle3Color, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Toggle" Margin="10" Visibility="{Binding Visibility}" Command="{Binding Toggle4ClickedCmd}"/>
+                <Ellipse Height="25" Width="25" Fill="{Binding Toggle4Color, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="20">
+            <Label Content="History"/>
+            <DataGrid ItemsSource="{Binding AllToggles}"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button Content="Listen" Width="100" Height="30" Margin="10" Command="{Binding ListenBtnClickedCmd}"/>
+            <Button Content="Connect" Width="100" Height="30" Command="{Binding ConnectBtnClickedCmd}"/>
+        </StackPanel>
+    </Grid>
+</Window>

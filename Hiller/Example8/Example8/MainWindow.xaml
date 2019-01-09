@@ -1,0 +1,56 @@
+﻿<Window x:Class="Example8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Margin="20" ItemsSource="{Binding Ships}" SelectedItem="{Binding SelectedShip, UpdateSourceTrigger=PropertyChanged}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding Id}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <DataGrid Grid.Column="1" Margin="30" ItemsSource="{Binding SelectedShip.Cargos}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}" Header="Name">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Name}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}" Header="Amount">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Amount}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}" Header="Weight">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Label Content="{Binding Weight}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Horizontal" Height="30" HorizontalAlignment="Right" Margin="20">
+            <Label Content="weight sum:"/>
+            <Label Width="150" Content="{Binding Weightsum, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+    </Grid>
+</Window>

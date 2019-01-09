@@ -1,0 +1,59 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example6"
+        xmlns:Converters="clr-namespace:Example6.Converters" x:Class="Example6.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Converters:IntToBrushConverter x:Key="IntToBrushConverter"/>
+    </Window.Resources>
+    <Window.DataContext>
+        <Binding Source="{StaticResource Locator}" Mode="OneWay" Path="Main"/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Height="30">
+            <Label Content="Filter (ID Type)"/>
+            <ComboBox Width="100" ItemsSource="{Binding Filterlist}" SelectedItem="{Binding SelectedFilter}"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Horizontal" Height="40" HorizontalAlignment="Right">
+            <Button Content="Act as Client" Margin="10" Command="{Binding ClientBtnCmd}"/>
+            <Button Content="Act as Server" Margin="10" Command="{Binding ServerBtnCmd}"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2" Margin="30" ItemsSource="{Binding TmpPersons}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Firstname, UpdateSourceTrigger=PropertyChanged}" ClipboardContentBinding="{x:Null}" Header="Firstname">
+
+                </DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Lastname}" ClipboardContentBinding="{x:Null}" Header="Lastname"/>
+                <DataGridTextColumn Binding="{Binding Age}" ClipboardContentBinding="{x:Null}" Header="Age"/>
+                <DataGridTextColumn Binding="{Binding IDNumber}" ClipboardContentBinding="{x:Null}" Header="Id"/>
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}" Header="IDType">
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <ComboBox ItemsSource="{Binding Main.Filterlist, Source={StaticResource Locator}}" SelectedItem="{Binding IDType}"></ComboBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn ClipboardContentBinding="{x:Null}" Header="Rating">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Ellipse Height="20" Width="20" Fill="{Binding Rating, Converter={StaticResource IntToBrushConverter}}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

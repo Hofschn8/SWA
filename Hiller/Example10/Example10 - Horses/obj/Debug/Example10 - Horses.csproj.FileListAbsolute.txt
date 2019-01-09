@@ -1,0 +1,31 @@
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Example10 - Horses.exe.config
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Example10 - Horses.exe
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Example10 - Horses.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\System.Windows.Interactivity.dll
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\MainWindow.g.cs
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\App.g.cs
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses_MarkupCompile.cache
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses_MarkupCompile.lref
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\App.baml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\MainWindow.baml
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.g.resources
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10___Horses.Properties.Resources.resources
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.csproj.GenerateResource.cache
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.csproj.CoreCompileInputs.cache
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.csproj.CopyComplete
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.exe
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.pdb
+c:\users\thomas\source\repos\Example10\Example10 - Horses\obj\Debug\Example10 - Horses.csprojAssemblyReference.cache
