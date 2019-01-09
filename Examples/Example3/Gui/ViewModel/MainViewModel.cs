@@ -116,8 +116,8 @@ namespace Gui.ViewModel
                 dispachTimer2.Interval = new TimeSpan(0, 0, 0, 1, 0);
                 dispachTimer2.Tick += CalcualteRemainingtime;
 
-                dispachTimer3.Interval = new TimeSpan(0, 0, 0, 0, 1);
-                dispachTimer3.Tick += CheckIfReady;
+                //dispachTimer3.Interval = new TimeSpan(0, 0, 0, 0, 1);
+                //dispachTimer3.Tick += CheckIfReady;
 
 
             }
@@ -125,33 +125,54 @@ namespace Gui.ViewModel
 
         private void CheckIfReady(object sender, EventArgs e)
         {
-            foreach (var item in ListOfWaitingItems)
+            lock (ListOfWaitingItems)
             {
-                if (item.RemainingTime == 0 && !ListOfReadyItems.Contains(item)) ListOfReadyItems.Add(item);
+                foreach (var item in ListOfWaitingItems)
+                {
+                    if (item.RemainingTime == 0 && !ListOfReadyItems.Contains(item)) ListOfReadyItems.Add(item);
+                }
             }
         }
 
         private void CalcualteRemainingtime(object sender, EventArgs e)
         {
-            foreach (var item in ListOfWaitingItems)
+            lock (ListOfWaitingItems)
             {
-                if (item.RemainingTime > 0)
+                List<ItemVm> tmp = new List<ItemVm>();
+                foreach (var item in ListOfWaitingItems)
                 {
-                    item.RemainingTime = item.RemainingTime - 1;
+                    if (item.RemainingTime > 0)
+                    {
+                        item.RemainingTime = item.RemainingTime - 1;
+                    }
+                    if (item.RemainingTime == 0)
+                    {
+                        if (ListOfReadyItems.Contains(item))
+                            { }
+                        else{ ListOfReadyItems.Add(item); };
+                        tmp.Add(item);
+
+                    }
                 }
-                if (item.RemainingTime == 0)
-                {
-                    listOfReadyItems.Add(item);
-                  
-                }
+                RemoveReadyItems(tmp);
+            }
+        }
+
+        private void RemoveReadyItems(List<ItemVm> tmp)
+        {
+            foreach (var item in tmp)
+            {
+                ListOfWaitingItems.Remove(item);
             }
         }
 
         private void SendItemToWaitingList(object sender, EventArgs e)
         {
-            ItemVm tmp = listOfCargos[rand1.Next(0, 5)];
-            ListOfWaitingItems.Add(tmp);
-           
+            lock (ListOfWaitingItems)
+            {
+                ItemVm tmp = listOfCargos[rand1.Next(0, 5)];
+                ListOfWaitingItems.Add(tmp);
+            }
         }
 
         private ItemVm[] FillListWithDemoCargos()
@@ -229,7 +250,7 @@ namespace Gui.ViewModel
         {
             dispachTimer.Start();
             dispachTimer2.Start();
-            dispachTimer3.Start();
+            //dispachTimer3.Start();
         }
     }
 }
