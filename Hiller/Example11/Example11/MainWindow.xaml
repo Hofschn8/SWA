@@ -1,0 +1,114 @@
+﻿<Window x:Class="Example11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Example11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" DataContext="{Binding Main, Mode=OneWay, Source={StaticResource Locator}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Start Server" Margin="10" Command="{Binding ConnectBtnClicked}"/>
+            <Label Content="Kanban Board" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+            <Button Content="Schritt weiter" Margin="10" Command="{Binding ContinueBtnClicked}" CommandParameter="{Binding SelectedTask}"/>
+        </StackPanel>
+        <Border Grid.Row="1" Margin="10" BorderBrush="Black" BorderThickness="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <StackPanel>
+                    <Label Content="IQ" HorizontalAlignment="Center"/>
+                    <ListBox Width="153" Height="318" ItemsSource="{Binding IQTasks}" SelectedItem="{Binding SelectedTask}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="3">
+                                    <Border BorderBrush="Blue" BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="{Binding Tag}"/>
+                                            <Label Content="{Binding Time}"/>
+                                            <Label Content="{Binding Person}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Estimate" HorizontalAlignment="Center"/>
+                    <ListBox Width="153" Height="318" ItemsSource="{Binding EstimateTasks}" SelectedItem="{Binding SelectedTask}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="3">
+                                    <Border BorderBrush="Blue" BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="{Binding Tag}"/>
+                                            <Label Content="{Binding Time}"/>
+                                            <Label Content="{Binding Person}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Implement" HorizontalAlignment="Center"/>
+                    <ListBox Width="153" Height="318" ItemsSource="{Binding ImplementTasks}" SelectedItem="{Binding SelectedTask}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="3">
+                                    <Border BorderBrush="Blue" BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="{Binding Tag}"/>
+                                            <Label Content="{Binding Time}"/>
+                                            <Label Content="{Binding Person}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Testing" HorizontalAlignment="Center"/>
+                    <ListBox Width="153" Height="318" ItemsSource="{Binding TestingTasks}" SelectedItem="{Binding SelectedTask}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="3">
+                                    <Border BorderBrush="Blue" BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="{Binding Tag}"/>
+                                            <Label Content="{Binding Time}"/>
+                                            <Label Content="{Binding Person}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Deploy" HorizontalAlignment="Center"/>
+                    <ListBox Width="153" Height="318" ItemsSource="{Binding DeployTasks}" SelectedItem="{Binding SelectedTask}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="3">
+                                    <Border BorderBrush="Blue" BorderThickness="1">
+                                        <StackPanel>
+                                            <Label Content="{Binding Tag}"/>
+                                            <Label Content="{Binding Time}"/>
+                                            <Label Content="{Binding Person}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
