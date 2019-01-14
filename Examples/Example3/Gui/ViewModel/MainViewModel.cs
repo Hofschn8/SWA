@@ -145,7 +145,7 @@ namespace Gui.ViewModel
                     {
                         item.RemainingTime = item.RemainingTime - 1;
                     }
-                    if (item.RemainingTime == 0)
+                    else if (item.RemainingTime == 0)
                     {
                         if (ListOfReadyItems.Contains(item))
                             { }

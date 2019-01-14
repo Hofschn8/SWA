@@ -89,7 +89,7 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
-                                
+
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                         </Grid>
@@ -98,7 +98,7 @@
                 <!--Category1 KarrosierVM-->
                 <ItemsControl.Resources>
                     <DataTemplate DataType="{x:Type vm:KarrosierieVm}" >
-                        <Border  Width="110" Height="90" BorderBrush="{Binding}" BorderThickness="1" >
+                        <Border  Width="110" Height="90" BorderBrush="{Binding}" BorderThickness="1" Grid.Column="{Binding Cat1List/ItemVm/Prio}" >
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*" />
