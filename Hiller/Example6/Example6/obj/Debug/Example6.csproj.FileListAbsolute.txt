@@ -29,3 +29,34 @@ C:\Users\Thomas\source\repos\Example6\Example6\obj\Debug\Example6.csproj.CopyCom
 C:\Users\Thomas\source\repos\Example6\Example6\obj\Debug\Example6.exe
 C:\Users\Thomas\source\repos\Example6\Example6\obj\Debug\Example6.pdb
 C:\Users\Thomas\source\repos\Example6\Example6\obj\Debug\Example6.csprojAssemblyReference.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Example6.exe.config
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Example6.exe
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Example6.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.csprojAssemblyReference.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\MainWindow.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\App.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6_MarkupCompile.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6_MarkupCompile.lref
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\App.baml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\MainWindow.baml
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.g.resources
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.Properties.Resources.resources
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.csproj.GenerateResource.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.csproj.CopyComplete
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.exe
+C:\Users\david\Documents\FH_Technikum\WS2019\AK Toolgestütztes SoftwareEntwicklung\SWA\Hiller\Example6\Example6\obj\Debug\Example6.pdb
