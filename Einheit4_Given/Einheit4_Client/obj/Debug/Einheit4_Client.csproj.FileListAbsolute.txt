@@ -1,0 +1,60 @@
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\MainWindow.g.cs
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\App.g.cs
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client_MarkupCompile.cache
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client_MarkupCompile.lref
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.exe.config
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.exe
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.pdb
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\App.baml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\MainWindow.baml
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.g.resources
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.Properties.Resources.resources
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.GenerateResource.cache
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.CoreCompileInputs.cache
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.CopyComplete
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.exe
+C:\Users\aschi\Documents\FH\SWA TUT\Einheit4\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.exe.config
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.exe
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Einheit4_Client.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\MainWindow.g.cs
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\App.g.cs
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client_MarkupCompile.cache
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client_MarkupCompile.lref
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\App.baml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\MainWindow.baml
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.g.resources
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.Properties.Resources.resources
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.GenerateResource.cache
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.CoreCompileInputs.cache
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.csproj.CopyComplete
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.exe
+C:\Users\AlexB\Source\Repos\Einheit4_Given\Einheit4_Client\obj\Debug\Einheit4_Client.pdb
